@@ -24,6 +24,6 @@ public:
 	void getNormOfUsingVolume_on100km(short normOfUsingVolume);
 
 	void showInfo() const;
-	unsigned short calcKmFromAllUsedVolume();
+	float calcKmFromAllUsedVolume();
 };
 

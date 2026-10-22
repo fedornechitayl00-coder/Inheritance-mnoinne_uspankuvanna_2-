@@ -69,7 +69,7 @@ void Car::showInfo() const
         "\nNorm of used volume per 100km: " << normOfUsingVolume_on100km << "\n";
 }
 
-unsigned short Car::calcKmFromAllUsedVolume()
+float Car::calcKmFromAllUsedVolume()
 {
-    return (volume/normOfUsingVolume_on100km)*100;
+    return ((float)volume/normOfUsingVolume_on100km)*100;
 }
