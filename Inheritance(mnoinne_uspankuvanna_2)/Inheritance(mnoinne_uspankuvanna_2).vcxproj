@@ -127,17 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Book.h" />
     <ClInclude Include="Buy.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Date.h" />
     <ClInclude Include="Product.h" />
+    <ClInclude Include="TalkingBook.h" />
     <ClInclude Include="Truck.h" />
+    <ClInclude Include="Voice_recording.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
     <ClCompile Include="Buy.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Product.cpp" />
+    <ClCompile Include="TalkingBook.cpp" />
     <ClCompile Include="Truck.cpp" />
+    <ClCompile Include="Voice_recording.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
